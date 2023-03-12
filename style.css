@@ -1,0 +1,93 @@
+
+body{ 
+  
+    
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%); ;
+}
+.container{
+       height: 100vh;
+       display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.add_data{
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    width: 20rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 60px -16px teal;
+}
+.display-data{
+ margin-left:100px ;
+ width: 25rem;
+ position: absolute;
+  top: 20%;
+  left: 60%; 
+  height: 300px;
+  overflow: hidden;
+  overflow-y: scroll;
+
+}
+
+.display-data table {
+  text-align: center;
+  width: 25rem;
+  border-collapse: collapse;
+  border: 1px solid;
+  margin-top: 100px;
+ 
+  
+}
+.display-data td{
+border: 1px solid;
+}
+
+#error{
+   position: absolute;
+   left: 50%;
+   top: 70%;
+   padding: 0 2rem;
+}
+
+.message{
+  height: 150px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 70%;
+  left: 25%;
+  display: none;
+ 
+}
+#text{
+  background:  content-box radial-gradient(rgb(139, 183, 194), skyblue);;
+  line-height: 32px;
+  position: absolute;
+  width: 80px;
+
+text-align: center;
+    top:48%;
+    left:30%;
+  
+}
+.message input{
+  border: solid 1px rgb(28, 44, 9);
+  padding: 0.5rem;
+  border-radius: 15%;
+  position: absolute;
+    top: 22%;
+    left: 12%;
+}
+.message button {
+  background: #00f2fe;
+  position: absolute;
+    top: 70%;
+    left: 36%;
+}
+
+
+ 

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="connect.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  
+    <div class="container">
+       <div class="add_data">
+        <table>
+            <tr>
+                <td>Nam</td>
+                <td>:</td>
+                <td> 
+                    <input 
+                      type="text"
+                      class="name"
+                      name="name" 
+                      placeholder="Add Name" 
+                      value=""
+                      required
+                     >
+                      <span style="color:red;">*</span>
+                    
+                  </td>  
+            </tr>
+            <tr>
+                <td>Tel</td>
+                <td>:</td>
+                <td> 
+                     <input
+                      type="tel"
+                      class="tel" 
+                      name="tel"
+                      placeholder="Add tel"
+                      value="" 
+                      required
+                    >
+                     <span style="color:red;">*</span>
+                     
+                    </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td>                    
+                    <input 
+                      type="email"
+                      class="email"
+                      name="email" 
+                      placeholder="Add email" 
+                      value="Example@gmail.com"
+                      required
+                    > 
+                    <span style="color:red;">*</span>
+                   </td>
+                  </tr>
+                 <tr>
+                   <td> <input class="btn" type="submit" value="Save"> </td>
+                     <td> <button type="button" class="remove"  >remove</button></td>
+                  </tr>
+                           
+              </table> 
+            </div>
+      </div>
+          <div class="display-data">
+          <table class="table">
+            <tr style="background: rgb(255,155,55);">
+              <td>ID</td>
+              <td>Nam</td>
+              <td>Tel</td>
+              <td>Email</td>
+            </tr>
+          </table>
+        </div>   
+  
+  <div id="error"></div>
+  <div class="message" style="background:rgb(44, 196, 137) ;">
+    <input type="text" class="inputMessage"/>
+    <div id="text"  > </div>
+    <button type="button" class="btn2">Message</button>
+  </div>
+</body>
+</html>
